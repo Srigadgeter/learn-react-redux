@@ -1,0 +1,49 @@
+.App {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    margin: 30px;
+    overflow: hidden;
+    position: relative;
+    padding: 5px 10px 5px 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.title {
+    font-weight: bolder;
+    color: rgb(186, 53, 226);
+}
+
+.text {
+    font-style: italic;
+    font-family: monospace;
+}
+
+.card img {
+    top: -26px;
+    left: -160px;
+    position: absolute;
+}
+
+.card button {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    font-weight: bolder;
+    background: rgb(186, 53, 226);
+    border: 1px solid rgb(127, 37, 155);
+}
+
+.noPosts {
+    width: 150px;
+    height: auto;
+    margin: 70px 0 0 100px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
